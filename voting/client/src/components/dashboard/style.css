@@ -1,0 +1,24 @@
+.pcard {
+  height: auto;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.pcard img {
+  height: 250px;
+  width: 250px;
+}
+.pcard h4 {
+  font-size: 20px;
+  padding: 30px 10px 10px 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+.partiescard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
